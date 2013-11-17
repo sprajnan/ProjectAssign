@@ -164,24 +164,30 @@ public class NewTask extends Activity{
 					
 				}
 				return null;
-			}
+		}
 
 			@Override
 			protected void onPostExecute(Void result) {
-				
+				try{
 			 	if(status.equals("Success"))
 			 	{
-			 		Intent i = new Intent(getApplicationContext(), ShowAllTasks.class);
-	                startActivity(i);
-	                finish();
+			 		 
+			 		 Intent i = new Intent(getApplicationContext(), ShowAllTasks.class);
+	                    startActivity(i);
+	                    finish();
 			 	}
 			 	else
 			 	{
-			 		//alert.showAlertDialog(getApplicationContext(), "Error"," Creating Task", false);
+			 		
 			 		
 			 	}
-			 
+	    	   
 				super.onPostExecute(result);
+				}
+				catch(Exception e)
+				{
+					System.out.println(e.toString());
+				}
 			}
 			
 			

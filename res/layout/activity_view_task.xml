@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Large Text"
+        android:text=""
         android:textColor="#FFEBCD"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -26,7 +26,7 @@
         android:layout_alignBottom="@+id/textView2"
         android:layout_alignLeft="@+id/textView1"
         android:textColor="#FFEBCD"
-        android:text="TextView" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView5"
@@ -36,7 +36,7 @@
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignLeft="@+id/textView3"
         android:textColor="#FFEBCD"
-        android:text="TextView" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView4"
@@ -76,7 +76,7 @@
         android:layout_alignBottom="@+id/textView6"
         android:layout_alignLeft="@+id/textView3"
         android:textColor="#FFEBCD"
-        android:text="TextView" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView8"
@@ -96,7 +96,7 @@
         android:layout_alignBottom="@+id/textView8"
         android:layout_alignLeft="@+id/textView5"
         android:textColor="#FFEBCD"
-        android:text="TextView" />
+        android:text="" />
 
     <Button
         android:id="@+id/button1"

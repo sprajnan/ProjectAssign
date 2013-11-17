@@ -39,6 +39,7 @@
         android:layout_below="@+id/textView1"
         android:layout_marginRight="34dp"
         android:textColor="#FFEBCD"
+        android:textSize="20sp"
         android:text=""
         />
 

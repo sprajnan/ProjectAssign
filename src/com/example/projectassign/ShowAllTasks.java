@@ -134,7 +134,7 @@ public class ShowAllTasks extends Activity {
 		                 // sending data to new activity
 		                 i.putExtra("task_id",task_id);
 		                 startActivity(i);
-		                 finish();
+		                 
 		            }
 		        }); 
 		}

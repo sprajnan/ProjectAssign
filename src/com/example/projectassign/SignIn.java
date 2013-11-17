@@ -154,27 +154,7 @@ public class SignIn extends Activity{
 
 	
 	
-	public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-        
-        public boolean onOptionsItemSelected(MenuItem item)
-        {
-        	switch (item.getItemId())
-            {
-        	case R.id.menu :startActivity(new Intent("com.example.projectassign.MENU"));
-        	break;
-        	case R.id.logout :
-        		Intent i = new Intent(getApplicationContext(), LogoutActivity.class);
-                startActivity(i);
-                finish();
-            }
-        	startActivity(new Intent("com.example.projectassign.MENU"));
-            return true;
-     
-    }
+	
 	}
 
 
