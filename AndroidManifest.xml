@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectassign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.projectassign.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectassign.SignIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.projectassign.SIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectassign.Menu1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.projectassign.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectassign.SignUp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.projectassign.SIGNUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ForgotPassword"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.projectassign.FORGOTPWD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectassign.NewTask"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.CodeVerification"
+            android:label="@string/title_activity_code_verification" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.LogoutActivity"
+            android:label="@string/title_activity_logout" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ShowAllTasks"
+            android:label="@string/title_activity_show_all_tasks" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ShowAllProjects"
+            android:label="@string/title_activity_show_all_projects" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ShowAllAssignments"
+            android:label="@string/title_activity_show_all_assignments" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ShowAllHomeworks"
+            android:label="@string/title_activity_show_all_homeworks" >
+        </activity>
+        <activity
+            android:name="com.example.projectassign.ViewTask"
+            android:label="@string/title_activity_view_task" >
+        </activity>
+    </application>
+
+</manifest>
